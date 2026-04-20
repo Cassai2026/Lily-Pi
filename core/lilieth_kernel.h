@@ -46,3 +46,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Node must teach to learn, and learn to teach.
 #define EDU_SCAFFOLD_ACTIVE 1
 #define RESEARCH_MODE_ENABLED 1
+
+// Law 25: Alchemical Transmutation
+// There is no waste in the 29th Node. Only mismanaged assets.
+#define ASSET_SCANNER_ACTIVE 1
+#define VT_ECONOMY_ENABLED 1
