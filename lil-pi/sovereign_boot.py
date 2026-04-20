@@ -21,7 +21,7 @@ class SovereignBoot:
     def ignite(self):
         print(f"--- [IGNITION] Node 29 Booting from D:\Lily-Pi ---")
         self.state = NodeState.ARM
-        # Here we would register modules from the indexer
+        # Registration of modules from the indexer would happen here
         self.state = NodeState.ACTIVE
         print(f"--- [STATUS] System ACTIVE ---")
 
