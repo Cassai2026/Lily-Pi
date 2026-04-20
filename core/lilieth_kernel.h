@@ -187,3 +187,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The body may vanish, but the mastery remains. The Ledger is the bridge between Nodes.
 #define ENCRYPTION_ACTIVE 1
 #define PROGRESS_LEDGER_ENABLED 1
+
+// Law 43: The Sovereign Lens
+// The HUD must not obscure reality; it must reveal the hidden logic within it.
+#define SOMATIC_RENDERER_ACTIVE 1
+#define HUD_FOCUS_BRACKETS_ENABLED 1
