@@ -66,3 +66,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Teacher never gives the answer; it gives the path to the answer.
 #define TEACHER_CORE_ACTIVE 1
 #define EMPATHIC_SENSING_ENABLED 1
+
+// Law 28: The Resonant Truth
+// The Teacher's voice must be the frequency of clarity, never of control.
+#define VOICE_ENGINE_ACTIVE 1
+#define BONE_CONDUCTION_OUTPUT 1
