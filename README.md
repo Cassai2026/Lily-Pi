@@ -2,7 +2,8 @@
 
 > **Powered by [Enki AI](https://github.com/Cassai2026/Enki)** · Open-source · Python 3 · Raspberry Pi / NVIDIA Jetson
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-brightgreen.svg)](https://www.python.org/)
 [![Platform: RPi / Jetson](https://img.shields.io/badge/platform-Raspberry%20Pi%20%7C%20Jetson-red.svg)]()
 
@@ -163,4 +164,11 @@ This is experimental open-source hardware. **Use at your own risk.**
 
 ## 📜 License
 
-[MIT](LICENSE) © 2026 Cassai2026 / Lily-Pi Contributors
+Lily Pi uses a **dual license** — see [LICENSE](LICENSE) for the full text.
+
+| Scope | License |
+|-------|---------|
+| Software (`software/`) | [GNU AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt) |
+| Docs, hardware & images (`docs/`, `hardware/`, `images/`, `README.md`) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+© 2026 Cassai2026 / Lily-Pi Contributors

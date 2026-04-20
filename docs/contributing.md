@@ -169,9 +169,17 @@ Open a GitHub Issue labelled `enhancement` with:
 
 ## 10. License
 
+Lily Pi uses a **dual license** — see [LICENSE](../LICENSE) for the full text.
+
+| Scope | License |
+|-------|---------|
+| Software (`software/`) | [GNU AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt) |
+| Docs, hardware & images | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
 By contributing to Lily Pi, you agree that your contributions will be licensed under the
-[MIT License](../LICENSE). You also confirm that you have the right to submit the code or files
-you are contributing (no third-party intellectual property violations).
+applicable license for the area you are contributing to (AGPL-3.0 for code, CC BY-SA 4.0
+for documentation and hardware). You also confirm that you have the right to submit the
+code or files you are contributing (no third-party intellectual property violations).
 
 ---
 

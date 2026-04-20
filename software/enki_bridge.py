@@ -14,7 +14,7 @@ Supports:
 
 Compatible with: Raspberry Pi 4/5, NVIDIA Jetson Nano/Orin
 Python   : 3.9+
-License  : MIT
+License  : AGPL-3.0
 """
 
 from __future__ import annotations

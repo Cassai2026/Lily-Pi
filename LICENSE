@@ -1,21 +1,67 @@
-MIT License
+Lily Pi — Dual License
+======================
 
-Copyright (c) 2026 Cassai2026 / Lily-Pi Contributors
+This project is released under a dual license:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+────────────────────────────────────────────────────────────────────────────────
+1. SOFTWARE — GNU Affero General Public License v3 (AGPL-3.0)
+────────────────────────────────────────────────────────────────────────────────
+All source code files (files under software/ and any .py, .sh, or similar
+executable/script files) are licensed under the GNU Affero General Public
+License, Version 3.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Copyright (C) 2026 Cassai2026 / Lily-Pi Contributors
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
+
+Full AGPL-3.0 license text: https://www.gnu.org/licenses/agpl-3.0.txt
+
+────────────────────────────────────────────────────────────────────────────────
+2. DOCUMENTATION & HARDWARE — Creative Commons Attribution-ShareAlike 4.0
+   International (CC BY-SA 4.0)
+────────────────────────────────────────────────────────────────────────────────
+All documentation, hardware design files, wiring diagrams, 3-D models, bill of
+materials, images, and README files (files under docs/, hardware/, images/, and
+any .md files) are licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+
+Copyright (C) 2026 Cassai2026 / Lily-Pi Contributors
+
+You are free to:
+  Share  — copy and redistribute the material in any medium or format
+  Adapt  — remix, transform, and build upon the material for any purpose,
+           even commercially
+
+Under the following terms:
+  Attribution        — You must give appropriate credit, provide a link to the
+                       license, and indicate if changes were made.
+  ShareAlike         — If you remix, transform, or build upon the material, you
+                       must distribute your contributions under the same license.
+  No additional      — You may not apply legal terms or technological measures
+  restrictions         that legally restrict others from doing anything the
+                       license permits.
+
+Full CC BY-SA 4.0 license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY TABLE
+────────────────────────────────────────────────────────────────────────────────
+  File / folder                     License
+  ─────────────────────────────────────────────────────────
+  software/**                       AGPL-3.0
+  docs/**                           CC BY-SA 4.0
+  hardware/**                       CC BY-SA 4.0
+  images/**                         CC BY-SA 4.0
+  README.md                         CC BY-SA 4.0
+  LICENSE                           (this file)
+────────────────────────────────────────────────────────────────────────────────
