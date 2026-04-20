@@ -1,34 +1,42 @@
 ﻿import socket
 import numpy as np
-import os
+from googletrans import Translator
 
-def check_vitality_index(heart_rate):
-    # The 42-Pulse Athletic Buffer calibration
-    baseline = 42
-    if heart_rate > (baseline * 2):
-        return "⚠️ VITALITY ALERT: HIGH CORTISOL DETECTED. ACTIVATE SHIELD."
-    return "🟢 VITALITY STABLE: ATHLETIC BUFFER ACTIVE."
+class SovereignTranslator:
+    def __init__(self):
+        self.translator = Translator()
+        self.target_lang = 'en' # Can be dynamically changed to 'es', 'fr', 'ar', etc.
 
-def start_acfa_brain():
+    def translate_to_hud(self, text, target):
+        try:
+            translation = self.translator.translate(text, dest=target)
+            return f"[HUD SUBTITLE] {translation.text}"
+        except:
+            return "[HUD] ⚠️ TRANSLATION_LATENCY_ERROR"
+
+def start_acfa_universal_brain():
     UDP_IP = "0.0.0.0"
     UDP_PORT = 5005
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.bind((UDP_IP, UDP_PORT))
     
-    print("--- 🏺 ACFA BRAIN: NEURO-LEARNER SUPPORT ACTIVE ---")
+    engine = SovereignTranslator()
+    
+    print("--- 🏺 LILY-PI ACFA: UNIVERSAL LANGUAGE NODE ACTIVE ---")
     
     try:
         while True:
             data, addr = sock.recvfrom(2048)
-            # Simulated incoming Biometric + Audio Data
-            # Format: [HeartRate, Volume]
-            input_data = np.frombuffer(data, dtype=np.int16)
+            # Simulated Speech-to-Text data coming from the Oakleys
+            detected_speech = data.decode('utf-8', errors='ignore')
             
-            if len(input_data) >= 2:
-                hr_status = check_vitality_index(input_data[0])
-                print(f"[ACFA HUD] {hr_status}")
+            # Translate and Print to HUD
+            # Example: Translating whatever is heard into the learner's preferred language
+            result = engine.translate_to_hud(detected_speech, 'en') 
+            print(f"{result} (Source: {addr})")
+            
     except KeyboardInterrupt:
-        print("\n[SYSTEM] ACFA SECURED. OUSH.")
+        print("\n[SYSTEM] UNIVERSAL NODE SECURED. OUSH.")
 
 if __name__ == "__main__":
-    start_acfa_brain()
+    start_acfa_universal_brain()
