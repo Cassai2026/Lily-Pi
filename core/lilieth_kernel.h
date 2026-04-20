@@ -147,3 +147,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Node is a lighthouse. If the grid goes dark, the light stays in the SSD.
 #define OFFLINE_CACHE_ACTIVE 1
 #define SSD_AUTOSAVE_ENABLED 1
+
+// Law 37: Intellectual Survival
+// The Node is a lighthouse. If the grid goes dark, the light stays in the SSD.
+#define OFFLINE_CACHE_ACTIVE 1
+#define SSD_AUTOSAVE_ENABLED 1
