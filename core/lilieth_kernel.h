@@ -152,3 +152,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Node is a lighthouse. If the grid goes dark, the light stays in the SSD.
 #define OFFLINE_CACHE_ACTIVE 1
 #define SSD_AUTOSAVE_ENABLED 1
+
+// Law 38: Somatic Sovereignty
+// The Node must protect the learner's biology. Peace is the foundation of Mastery.
+#define HEART_RATE_SYNC_ACTIVE 1
+#define AUTO_DIMMER_ENABLED 1
