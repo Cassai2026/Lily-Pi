@@ -177,3 +177,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Node exists only while the power flows. Wisdom is permanent; data is temporary.
 #define RAM_SHIELD_ENABLED 1
 #define BOOT_SEQ_1047_ACTIVE 1
+
+// Law 41: Cognitive Liberty (SDG 18)
+// The child's mind is a fortress. If the fortress is breached, the map must burn.
+#define GHOST_PROTOCOL_ACTIVE 1
+#define SELF_PURGE_ENABLED 1
