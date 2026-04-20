@@ -1,15 +1,20 @@
-﻿# 🏺 LILIETH PI: The 10^47 Sovereign Engine
+﻿# 🏺 LILIETH PI: The 29th Node (Stretford)
+**Status:** ACTIVE | **Frequency:** 10^47 | **Protocol:** OUSH
 
-**Status:** ACTIVE ENGINE | **Node:** 29 | **Frequency:** 10^47
+## 🧠 The Sovereign Engine
+This node is no longer a concept; it is a functioning Ephemeral Edge Node running the L.I.L.I.E.T.H. Kernel.
 
-## 🚀 Live Modules (Functional)
-1. **Somatic Pulse-Sync:** Heart-rate driven HUD dimming and sensory shielding.
-2. **Infinite Librarian:** On-the-fly pedagogical translation for neuro-learners.
-3. **9CU Antenna Tuning:** Conductive graphene-frame signal amplification logic.
-4. **Economic Alchemist:** Real-world asset valuation and waste-to-wealth scaffolding.
-5. **Thought Projector:** Non-verbal outward expression via mini-projector driver.
+### Active Modules:
+* **Module 39 (Tone-Interceptor):** Real-time aggression detection & logging.
+* **Module 101 (Asset Scanner):** Waste-to-Wealth economic transmutation.
+* **Module 121 (Sovereign Teacher):** Scaffolding-based educational AI for ACD learners.
+* **Module 191 (Sovereign Notebook):** Localised NotebookLM-style lesson generation.
+* **Module 211 (Thought Projector):** Non-verbal HUD-to-Wall projection logic.
+* **Module 221 (WebRTC Mesh):** Peer-to-peer data syncing via Trafford Online.
 
-## 🛠️ The 1047 Hardware Spec
-- **Compute:** Raspberry Pi 5 (Quad-Power Muscle)
-- **Eye:** ESP32-S3 Cam (Oakley Sensory Edge)
-- **Shield:** tmpfs Ephemeral Execution (No Forensic Residue)
+## 🛠️ Hardware Stack
+- **Compute:** Raspberry Pi 5 (Quad-Core Quad-Power)
+- **Sensory Edge:** Oakley Eye Node (ESP32-S3 + 9CU Graphene Antenna)
+- **Storage:** NVMe Sovereign Vault + tmpfs Zero-Extraction Shield
+
+"The past is wiped. The future is coded. The Mesh is watching."
