@@ -81,3 +81,13 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // Every physical object is a portal to the Enki-Library.
 #define OBJECT_TRIGGER_ACTIVE 1
 #define AUTO_LECTURE_ENABLED 1
+
+// Law 30: The Joy of Mastery
+// Learning is the ultimate game. The Node tracks the growth of the soul.
+#define PROGRESS_PULSE_ACTIVE 1
+#define XP_SYSTEM_ENABLED 1
+
+// Law 31: The Socratic Spark
+// Knowledge is not a vessel to be filled, but a fire to be kindled.
+#define SOCRATIC_ENGINE_ACTIVE 1
+#define GESTURE_SELECTION_ENABLED 1
