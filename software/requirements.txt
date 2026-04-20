@@ -1,0 +1,44 @@
+# Lily Pi — Python Dependencies
+# ================================
+# Install with:  pip install -r requirements.txt
+#
+# Tested with Python 3.9+ on Raspberry Pi OS (64-bit) and Ubuntu 22.04 (Jetson).
+
+# ---------------------------------------------------------------------------
+# HTTP / networking
+# ---------------------------------------------------------------------------
+requests>=2.31.0
+
+# ---------------------------------------------------------------------------
+# Hardware drivers (Raspberry Pi / Jetson)
+# ---------------------------------------------------------------------------
+# Uncomment the section relevant to your platform.
+
+# -- Adafruit CircuitPython (Raspberry Pi) --
+# adafruit-blinka>=8.0.0
+# adafruit-circuitpython-ssd1306>=2.12.0
+# adafruit-circuitpython-neopixel>=6.3.0
+
+# -- NVIDIA Jetson (use Jetson.GPIO instead of RPi.GPIO) --
+# Jetson.GPIO>=2.1.0
+
+# ---------------------------------------------------------------------------
+# Image / font rendering (for OLED text)
+# ---------------------------------------------------------------------------
+Pillow>=10.0.0
+
+# ---------------------------------------------------------------------------
+# Serial / I²C / GPIO utilities
+# ---------------------------------------------------------------------------
+pyserial>=3.5      # GPS NMEA over UART
+smbus2>=0.4.1      # Direct I²C register access (IMU, sensors)
+
+# ---------------------------------------------------------------------------
+# Environment / config
+# ---------------------------------------------------------------------------
+python-dotenv>=1.0.0    # Load .env files for ENKI_API_URL, ENKI_API_KEY, etc.
+
+# ---------------------------------------------------------------------------
+# Optional: development & testing
+# ---------------------------------------------------------------------------
+pytest>=7.0.0
