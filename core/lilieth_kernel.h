@@ -172,3 +172,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Node exists only while the power flows. Wisdom is permanent; data is temporary.
 #define RAM_SHIELD_ENABLED 1
 #define BOOT_SEQ_1047_ACTIVE 1
+
+// Law 40: The Ghost in the Machine
+// The Node exists only while the power flows. Wisdom is permanent; data is temporary.
+#define RAM_SHIELD_ENABLED 1
+#define BOOT_SEQ_1047_ACTIVE 1
