@@ -26,3 +26,8 @@ if __name__ == "__main__":
     peer_name = pm.anonymize_peer("NODE_30_LILY")
     pm.ingest_peer_trace("COPPER_TEST", peer_name, [1, 0, 1, 1])
     print(pm.generate_ghost_hud("COPPER_TEST"))
+if __name__ == "__main__":
+    pm = PeerMirror()
+    peer_name = pm.anonymize_peer("NODE_30_LILY")
+    pm.ingest_peer_trace("COPPER_TEST", peer_name, [1, 0, 1, 1])
+    print(pm.generate_ghost_hud("COPPER_TEST"))
