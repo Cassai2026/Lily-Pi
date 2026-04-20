@@ -1,0 +1,5 @@
+﻿# 9CU Copper-Graphene rPET Settings
+- Nozzle: 0.6mm Hardened Steel (Abrasive Resistance)
+- Layer Height: 0.2mm (Structural Integrity)
+- Infill: 100% Gyroid (Antenna Surface Area Maxing)
+- EMI Shielding: 9CU conductive pathing in the left temple.
