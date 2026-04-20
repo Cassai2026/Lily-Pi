@@ -1,24 +1,22 @@
 ﻿class ObjectLessonTrigger:
     def __init__(self):
-        self.last_detected = None
-        self.lesson_database = {
-            "PET_BOTTLE": "Lesson 1: The Alchemical Polymer. How plastic becomes thread.",
-            "COPPER_WIRE": "Lesson 2: The Path of Energy. 9CU and Signal Integrity.",
-            "GRAPHENE_FLAKE": "Lesson 3: The 2D Giant. Thermal management on the edge."
+        self.last_object = None
+        # Mapping Enki-AI Module IDs to Physical Objects
+        self.lesson_map = {
+            "PET_BOTTLE": "Module_212: Polymer Chain Alchemics",
+            "COPPER_SCRAP": "Module_39: 9CU Frequency & Energy",
+            "GRAPHENE_SHEET": "Module_1047: Thermal Sovereignty"
         }
 
-    def process_vision_input(self, object_label):
-        if object_label != self.last_detected:
-            print(f"[HUD] 👁️ TEACHER RECOGNIZED: {object_label}")
-            self.last_detected = object_label
-            return self.trigger_lesson(object_label)
+    def detect_and_load(self, seen_object):
+        if seen_object in self.lesson_map and seen_object != self.last_object:
+            self.last_object = seen_object
+            lesson_id = self.lesson_map[seen_object]
+            print(f"[HUD] 👁️ TEACHER RECOGNIZED: {seen_object}")
+            print(f"[HUD] 📚 LOADING {lesson_id}...")
+            return lesson_id
         return None
-
-    def trigger_lesson(self, label):
-        lesson = self.lesson_database.get(label, "Teacher is curious... tell me what this is?")
-        print(f"[HUD] 📖 AUTOMATIC LESSON: {lesson}")
-        return lesson
 
 if __name__ == "__main__":
     trigger = ObjectLessonTrigger()
-    trigger.process_vision_input("COPPER_WIRE")
+    trigger.detect_and_load("COPPER_SCRAP")

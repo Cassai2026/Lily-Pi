@@ -76,3 +76,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // Every object is a door to knowledge. The Eye is the key.
 #define OBJECT_TRIGGER_ACTIVE 1
 #define AUTO_VOICE_LECTURE 1
+
+// Law 29: The Living Classroom
+// Every physical object is a portal to the Enki-Library.
+#define OBJECT_TRIGGER_ACTIVE 1
+#define AUTO_LECTURE_ENABLED 1
