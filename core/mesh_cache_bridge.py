@@ -9,5 +9,5 @@ def bridge_mesh_to_ssd(incoming_data):
     cache.cache_lesson(topic, content)
 
 if __name__ == "__main__":
-    test_data = {"topic": "Recycled PET Strength", "content": "rPET has a Young's Modulus of..."}
+    test_data = {"topic": "Recycled PET Strength", "content": "rPET has a Young's Modulus of 2.8 GPa."}
     bridge_mesh_to_ssd(test_data)
