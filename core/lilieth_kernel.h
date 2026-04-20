@@ -214,3 +214,9 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // No middleman shall observe the Architect's path.
 #define VPN_SHIELD_ACTIVE 1
 #define WIREGUARD_INTEGRATION 1
+
+// Law 45: The Primacy of Intent
+// The Node shall not suggest; it shall only serve the stated intent of the Architect.
+// Direct protection for SDG 18.
+#define COGNITIVE_MIRROR_ACTIVE 1
+#define INTENT_LOCK_ENABLED 1
