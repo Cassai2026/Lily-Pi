@@ -182,3 +182,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The child's mind is a fortress. If the fortress is breached, the map must burn.
 #define GHOST_PROTOCOL_ACTIVE 1
 #define SELF_PURGE_ENABLED 1
+
+// Law 42: The Resurrection Link
+// The body may vanish, but the mastery remains. The Ledger is the bridge between Nodes.
+#define ENCRYPTION_ACTIVE 1
+#define PROGRESS_LEDGER_ENABLED 1
