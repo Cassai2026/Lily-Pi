@@ -71,3 +71,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Teacher's voice must be the frequency of clarity, never of control.
 #define VOICE_ENGINE_ACTIVE 1
 #define BONE_CONDUCTION_OUTPUT 1
+
+// Law 29: The Living Classroom
+// Every object is a door to knowledge. The Eye is the key.
+#define OBJECT_TRIGGER_ACTIVE 1
+#define AUTO_VOICE_LECTURE 1
