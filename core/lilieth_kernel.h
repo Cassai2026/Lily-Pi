@@ -132,3 +132,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // One Node learns, the entire Mesh grows. Trafford Online is the Ledger of Truth.
 #define WEBRTC_MESH_ACTIVE 1
 #define TRAFFORD_ONLINE_SYNC 1
+
+// Law 37: Intellectual Survival
+// The Node is a lighthouse. If the grid goes dark, the light stays in the SSD.
+#define OFFLINE_CACHE_ACTIVE 1
+#define SSD_AUTOSAVE_ENABLED 1
