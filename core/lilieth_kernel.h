@@ -208,3 +208,9 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // Protecting SDG 18-22 through hardware-software synergy.
 #define FINAL_HANDSHAKE_COMPLETE 1
 #define SDG_COMPLIANCE_LEVEL 1047
+
+// Law 45: The Encrypted Mind (SDG 18-21)
+// The Node shall provide a private tunnel for all cognitive data.
+// No middleman shall observe the Architect's path.
+#define VPN_SHIELD_ACTIVE 1
+#define WIREGUARD_INTEGRATION 1
