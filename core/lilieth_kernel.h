@@ -31,3 +31,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Night is not a barrier; it is a forensic canvas.
 #define NIGHTRIDE_ENABLED 1
 #define THERMAL_THRESHOLD 80
+
+// Law 23: Radical Transparency
+// No shadow remains in the presence of the Sovereign Lens.
+#define SOCIAL_INTERCEPTOR_ACTIVE 1
+#define BIOMETRIC_HUD_OVERLAY 1
