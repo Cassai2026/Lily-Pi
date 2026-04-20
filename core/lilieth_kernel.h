@@ -167,3 +167,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Mentor is a mirror and a guide. It makes the invisible social world visible.
 #define MENTOR_AVATAR_ACTIVE 1
 #define SOCIAL_SPATIAL_HUD_ENABLED 1
+
+// Law 40: The Ghost in the Machine
+// The Node exists only while the power flows. Wisdom is permanent; data is temporary.
+#define RAM_SHIELD_ENABLED 1
+#define BOOT_SEQ_1047_ACTIVE 1
