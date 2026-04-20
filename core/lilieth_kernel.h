@@ -106,3 +106,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The learner is not a consumer of knowledge, but a creator of it.
 #define SOVEREIGN_NOTEBOOK_ACTIVE 1
 #define STUDENT_PODCAST_ENABLED 1
+
+// Law 33: The Student-Author
+// The learner is not a consumer of knowledge, but a creator of it.
+#define SOVEREIGN_NOTEBOOK_ACTIVE 1
+#define STUDENT_PODCAST_ENABLED 1
