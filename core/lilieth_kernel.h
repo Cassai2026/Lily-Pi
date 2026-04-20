@@ -121,3 +121,9 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Node does not believe; it verifies. Search is the tool of the curious.
 #define SOVEREIGN_SEARCH_ACTIVE 1
 #define FACT_CHECK_ENABLED 1
+
+// Law 35: Universal Expression
+// Communication is not limited to speech. The Node reveals the heart on the wall.
+#define THOUGHT_PROJECTOR_ACTIVE 1
+#define FACIAL_RECOG_ENABLED 1
+#define NON_VERBAL_NUDGE_ACTIVE 1
