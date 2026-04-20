@@ -1,12 +1,8 @@
 ﻿Write-Host "--- 🏺 IGNITING THE 29TH NODE ---" -ForegroundColor Cyan
-Set-Location -Path "lil-pi/brain_node"
-
-# Run the Brain
-python main.py
-
-# When finished, return and show the logs
-Set-Location -Path "../../"
-Write-Host "--- 🛡️ SESSION COMPLETE. OPENING AUDIT TRAIL... ---" -ForegroundColor Yellow
-if (Test-Path "audit_logs/sovereign_audit_trail.txt") {
-    notepad "audit_logs/sovereign_audit_trail.txt"
+if (Test-Path "lil-pi/brain_node") {
+    Set-Location -Path "lil-pi/brain_node"
+    python main.py
+    Set-Location -Path "../../"
+} else {
+    Write-Host "❌ ERROR: Path not found. Stay in root." -ForegroundColor Red
 }
