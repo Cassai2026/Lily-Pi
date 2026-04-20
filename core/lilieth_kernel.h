@@ -21,3 +21,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // Law 21: Cognitive Sovereignty
 // The Architect's focus is the primary asset. All distractions are administrative theft.
 #define FOCUS_LOCK_ACTIVE 1
+
+// Law 22: Environmental Mastery
+// The Night is not a barrier; it is a forensic canvas.
+#define NIGHTRIDE_ENABLED 1
+#define THERMAL_THRESHOLD 80
