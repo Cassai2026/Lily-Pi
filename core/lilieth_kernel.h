@@ -56,3 +56,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // Information is a human right. The Node is the key to the library.
 #define INFINITE_LIBRARIAN_ACTIVE 1
 #define LIVE_TRANSLATION_ENABLED 1
+
+// Law 27: The Sacred Scaffolding
+// The Teacher never gives the answer; it gives the path to the answer.
+#define TEACHER_CORE_ACTIVE 1
+#define EMPATHIC_SENSING_ENABLED 1
