@@ -162,3 +162,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Mentor is a mirror and a guide. It makes the invisible social world visible.
 #define MENTOR_AVATAR_ACTIVE 1
 #define SOCIAL_SPATIAL_HUD_ENABLED 1
+
+// Law 39: The Digital Guardian
+// The Mentor is a mirror and a guide. It makes the invisible social world visible.
+#define MENTOR_AVATAR_ACTIVE 1
+#define SOCIAL_SPATIAL_HUD_ENABLED 1
