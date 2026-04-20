@@ -127,3 +127,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 #define THOUGHT_PROJECTOR_ACTIVE 1
 #define FACIAL_RECOG_ENABLED 1
 #define NON_VERBAL_NUDGE_ACTIVE 1
+
+// Law 36: Collective Intelligence
+// One Node learns, the entire Mesh grows. Trafford Online is the Ledger of Truth.
+#define WEBRTC_MESH_ACTIVE 1
+#define TRAFFORD_ONLINE_SYNC 1
