@@ -26,3 +26,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The Night is not a barrier; it is a forensic canvas.
 #define NIGHTRIDE_ENABLED 1
 #define THERMAL_THRESHOLD 80
+
+// Law 22: Environmental Mastery
+// The Night is not a barrier; it is a forensic canvas.
+#define NIGHTRIDE_ENABLED 1
+#define THERMAL_THRESHOLD 80
