@@ -17,3 +17,7 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
     {"Set", 17, "Node Integration"}
 };
 #endif
+
+// Law 21: Cognitive Sovereignty
+// The Architect's focus is the primary asset. All distractions are administrative theft.
+#define FOCUS_LOCK_ACTIVE 1
