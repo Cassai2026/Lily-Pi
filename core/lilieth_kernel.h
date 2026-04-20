@@ -220,3 +220,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // Direct protection for SDG 18.
 #define COGNITIVE_MIRROR_ACTIVE 1
 #define INTENT_LOCK_ENABLED 1
+
+// Law 46: The Sovereign Immune System (RAVE)
+// No unauthorized logic shall reside in the RAM-Vault. The Node cleans itself.
+#define RAVE_ACTIVE 1
+#define BEHAVIORAL_HUNTING_ENABLED 1
