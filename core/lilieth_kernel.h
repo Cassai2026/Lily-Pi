@@ -51,3 +51,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // There is no waste in the 29th Node. Only mismanaged assets.
 #define ASSET_SCANNER_ACTIVE 1
 #define VT_ECONOMY_ENABLED 1
+
+// Law 26: Cognitive Access
+// Information is a human right. The Node is the key to the library.
+#define INFINITE_LIBRARIAN_ACTIVE 1
+#define LIVE_TRANSLATION_ENABLED 1
