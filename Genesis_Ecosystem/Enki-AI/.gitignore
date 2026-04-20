@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Node / JavaScript
+node_modules/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data files (contain user data; not committed)
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Piper TTS output
+output.wav
+*_low.wav
+
+# Scraper cache
+data/odin_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / environment
+.env
+*.env
+
+# Browser / session state files (may contain auth tokens)
+fb_state.json
+*_state.json
+
+# Personal data files
+paul_notion.csv
