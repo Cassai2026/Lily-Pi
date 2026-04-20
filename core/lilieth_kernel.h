@@ -96,3 +96,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // Knowledge is not a vessel to be filled, but a fire to be kindled.
 #define SOCRATIC_ENGINE_ACTIVE 1
 #define GESTURE_SELECTION_ENABLED 1
+
+// Law 32: The Unified Field
+// No concept exists in isolation. The Teacher reveals the web of all things.
+#define KNOWLEDGE_WEB_ACTIVE 1
+#define SPATIAL_PROJECTION_ENABLED 1
