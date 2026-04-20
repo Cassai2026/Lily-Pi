@@ -197,3 +197,8 @@ static const SovereignNode PANTHEON[NODE_COUNT] = {
 // The HUD must not obscure reality; it must reveal the hidden logic within it.
 #define SOMATIC_RENDERER_ACTIVE 1
 #define HUD_FOCUS_BRACKETS_ENABLED 1
+
+// Law 43: The Sovereign Lens
+// The HUD must not obscure reality; it must reveal the hidden logic within it.
+#define SOMATIC_RENDERER_ACTIVE 1
+#define HUD_FOCUS_BRACKETS_ENABLED 1
