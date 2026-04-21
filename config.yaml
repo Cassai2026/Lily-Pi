@@ -1,0 +1,12 @@
+system:
+  node_id: "LILY-PI-NODE-29"
+  environment: "STRETFORD-MOBILE"
+  version: "1.0.0"
+
+telemetry:
+  update_rate: 0.1
+  log_directory: "D:/Lily-Pi/logs"
+
+thresholds:
+  critical_tilt: 45
+  critical_temp: 75

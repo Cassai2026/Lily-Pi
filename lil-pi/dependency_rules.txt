@@ -1,5 +1,0 @@
-﻿SOVEREIGN DEPENDENCY DIRECTION:
-HARDWARE (ESP32/GPIO) -> LILY-PI (CORE) -> BRAIN_NODE (LOGIC) -> GAME_ENGINE (SYSTEMS) -> UI (DISPLAY)
-
-RULE: Modules can only import from layers to their LEFT.
-RULE: Governance is DATA (JSON/TXT), never IMPORTED CODE.
