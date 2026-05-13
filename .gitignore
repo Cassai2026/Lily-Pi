@@ -36,3 +36,8 @@ Thumbs.db
 
 # Byte-compiled / optimised
 *.pyc
+
+# Runtime telemetry
+logs/*.json
+logs/*.log
+!logs/.gitkeep

@@ -1,4 +1,5 @@
 ﻿import os
+import subprocess
 import sys
 
 # Get the absolute path of where this script actually lives
@@ -7,7 +8,8 @@ sys.path.append(BASE_DIR)
 
 def ignition():
     print(f"--- [IGNITION] Node 29 Booting from Sovereign Path: {BASE_DIR} ---")
-    # Add actual subprocess calls here later
+    target = os.path.join(BASE_DIR, "main.py")
+    subprocess.run([sys.executable, target], check=False)
     
 if __name__ == "__main__":
     ignition()
