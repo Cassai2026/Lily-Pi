@@ -53,7 +53,7 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 # 3. Install dependencies
-pip install -r requirements-minimal.txt
+pip install -r requirements-dev.txt
 
 # 4. Run a short deterministic demo to verify your setup
 python main.py --demo-seconds 10 --no-clear

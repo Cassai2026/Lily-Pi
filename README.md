@@ -66,5 +66,11 @@ Read `/home/runner/work/Lily-Pi/Lily-Pi/docs/safety-and-legal.md` before buildin
 ## Dependencies
 
 - `requirements-minimal.txt` — minimal runtime dependencies for core HUD loop/demo.
+- `requirements-dev.txt` — minimal runtime + contributor tools (pytest, flake8).
 - `requirements.txt` — legacy/full dependency snapshot (includes optional platform-specific packages).
 
+---
+
+## Investor Materials
+
+See `/home/runner/work/Lily-Pi/Lily-Pi/docs/investor-brief.md` for a concise architecture, risk posture, pilot framing, and KPI set.
