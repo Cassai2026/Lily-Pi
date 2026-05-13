@@ -36,7 +36,7 @@ code of conduct. Please report unacceptable behaviour to the maintainers via Git
 | 🖨️ Hardware | 3-D printable models, wiring diagrams, BOM improvements |
 | 📝 Docs | Tutorials, translations, example use-cases |
 | 🐛 Bug fixes | Any reproducible bug described in an issue |
-| 🧪 Tests | Unit tests for `software/` modules |
+| 🧪 Tests | Unit tests for core runtime modules (`main.py`, `core/`) |
 | 🎨 UI / UX | OLED layout designs, mockups |
 
 ---
@@ -53,16 +53,16 @@ python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 # 3. Install dependencies
-pip install -r software/requirements.txt
+pip install -r requirements-minimal.txt
 
-# 4. Run the display demo to verify your setup
-python software/display_example.py
+# 4. Run a short deterministic demo to verify your setup
+python main.py --demo-seconds 10 --no-clear
 ```
 
 ### Coding Standards
 
 - **Python 3.9+** — use type hints (`def foo(x: int) -> str:`)
-- Follow **PEP 8** style — run `flake8 software/` to check
+- Follow **PEP 8** style — run `flake8 main.py core/` to check
 - Use **docstrings** for all public functions and classes (Google style)
 - Keep lines ≤ 100 characters
 
@@ -110,7 +110,7 @@ hardware: add motorcycle full-face helmet 3-D mount STL
 
 ### PR Review Checklist
 
-- [ ] Code follows PEP 8 and passes `flake8`
+- [ ] Code follows PEP 8 and passes `flake8 main.py core/`
 - [ ] All new functions and classes have docstrings
 - [ ] Hardware additions include both `.stl` and `.step` files
 - [ ] README / docs updated if applicable
@@ -153,7 +153,7 @@ Open a GitHub Issue with:
 - **Steps to reproduce**: numbered, minimal steps
 - **Expected behaviour**
 - **Actual behaviour** (include error traceback if applicable)
-- **Log output**: copy from `hud_runner.py` console
+- **Log output**: copy from `main.py` console
 
 ---
 
@@ -173,7 +173,7 @@ Lily Pi uses a **dual license** — see [LICENSE](../LICENSE) for the full text.
 
 | Scope | License |
 |-------|---------|
-| Software (`software/`) | [GNU AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt) |
+| Software (`*.py`, `*.sh`, executable source) | [GNU AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt) |
 | Docs, hardware & images | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 By contributing to Lily Pi, you agree that your contributions will be licensed under the

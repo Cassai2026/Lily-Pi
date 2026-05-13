@@ -5,7 +5,7 @@ system:
 
 telemetry:
   update_rate: 0.1
-  log_directory: "D:/Lily-Pi/logs"
+  log_directory: "logs"
 
 thresholds:
   critical_tilt: 45
