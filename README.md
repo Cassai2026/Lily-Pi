@@ -59,7 +59,7 @@ python main.py --demo-seconds 20 --no-clear
 ## Safety and Compliance
 
 This project is experimental and not road-certified.
-Read `/home/runner/work/Lily-Pi/Lily-Pi/docs/safety-and-legal.md` before building or operating hardware.
+Read `docs/safety-and-legal.md` before building or operating hardware.
 
 ---
 
@@ -73,4 +73,4 @@ Read `/home/runner/work/Lily-Pi/Lily-Pi/docs/safety-and-legal.md` before buildin
 
 ## Investor Materials
 
-See `/home/runner/work/Lily-Pi/Lily-Pi/docs/investor-brief.md` for a concise architecture, risk posture, pilot framing, and KPI set.
+See `docs/investor-brief.md` for a concise architecture, risk posture, pilot framing, and KPI set.

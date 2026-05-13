@@ -2,7 +2,7 @@
 
 This guide covers the core Lily-Pi HUD prototype path in this repository.
 
-> Read `/home/runner/work/Lily-Pi/Lily-Pi/docs/safety-and-legal.md` before hardware use.
+> Read `docs/safety-and-legal.md` before hardware use.
 
 ## 1) Clone and enter project
 
@@ -41,5 +41,5 @@ Press `Ctrl+C` to stop.
 
 ## Notes
 
-- Core runtime files are in `/home/runner/work/Lily-Pi/Lily-Pi/main.py` and `/home/runner/work/Lily-Pi/Lily-Pi/core/`.
+- Core runtime files are in `main.py` and `core/`.
 - The broader `Genesis_Ecosystem/` directories are separate workstreams and not required for core HUD execution.
