@@ -76,7 +76,11 @@ class EducationSystemPhaseOne:
             )
         )
 
-    def learning_loop(self, learner: LearnerProfile, lesson: LessonState) -> list[str]:
+    def learning_loop(
+        self,
+        learner: LearnerProfile,
+        lesson: LessonState,
+    ) -> list[str]:
         """Run lesson presentation and scaffolding decisions."""
         self._emit(
             "lesson_started",
@@ -88,7 +92,12 @@ class EducationSystemPhaseOne:
 
         guidance = self.scaffold.identify_learning_gap(lesson.complexity)
         if guidance != ["Proceed with Autonomy."]:
-            self._emit("scaffold_applied", learner, lesson, {"guidance": guidance})
+            self._emit(
+                "scaffold_applied",
+                learner,
+                lesson,
+                {"guidance": guidance},
+            )
         return guidance
 
     def assessment_loop(
@@ -103,7 +112,10 @@ class EducationSystemPhaseOne:
         self._emit("question_asked", learner, lesson, {"question": question})
 
         lesson.attempt_count += 1
-        correct = self.socratic.evaluate_response(response_keywords, expected_keywords)
+        correct = self.socratic.evaluate_response(
+            response_keywords,
+            expected_keywords,
+        )
         self._emit(
             "response_evaluated",
             learner,
