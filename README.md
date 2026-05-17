@@ -74,3 +74,4 @@ Read `docs/safety-and-legal.md` before building or operating hardware.
 ## Investor Materials
 
 See `docs/investor-brief.md` for a concise architecture, risk posture, pilot framing, and KPI set.
+See `docs/unity-education-system.md` for the Unity education system migration plan and phase-1 implementation contract.
